@@ -12,6 +12,7 @@
     .outer_div p{
         font-size: 20px;
         font-weight: 400;
+        color:white;
     }
     
     .inner_div_1 , .inner_div_3{
@@ -23,6 +24,7 @@
     .inner_div_1 li , .inner_div_3 li{
         padding: 0 0.7vw;
         font-size: 14px;
+        color: white;
     }
     
     .inner_div_2{
@@ -35,10 +37,12 @@
     
     .logo{
         font-size: 18px;
+        color: white;
     }
     
     .bar{
         display: none;
+        color: white;
     }
 }
 
@@ -57,6 +61,7 @@
         font-size: 18px;
         font-weight: 400;
         margin-left:27vw;
+        color: white;
     }
     
     .inner_div_1{
@@ -82,9 +87,7 @@
         justify-content : space-between;
         list-style: none;
     }
-    .links{
-        color: blackS;
-    }
+   
     
     .inner_div_3 li{
         padding: 0 0.7vw;
@@ -102,6 +105,10 @@
     
     .logo{
         font-size: 18px;
+        color: white;
+    }
+    .bar{
+        color: white;
     }
     
 }
@@ -119,6 +126,7 @@
         font-size: 16px;
         font-weight: 500;
         margin-left:15vw;
+        color: white;
     }
     
     .inner_div_1{
@@ -144,9 +152,7 @@
         justify-content : space-between;
         list-style: none;
     }
-    .links{
-        color: blackS;
-    }
+   
     
     .inner_div_3 li{
         padding: 0 0.7vw;
@@ -164,6 +170,7 @@
     
     .logo, .bar{
         font-size: 16px;
+        color: white;
     }
 }
 
