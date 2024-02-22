@@ -49,6 +49,33 @@
     border-radius: 250px;
     height: 420px;
   }
+  .skills{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+  }
+  .skills p{
+    color:white;
+  }
+  .skill1 , .skill2 , .skill3{
+    width: 25%;
+    padding:30px 20px;
+    background-color:rgb(61, 51, 155);
+    margin: 0 1vw;
+    border-radius: 5px;
+  }
+
+  .skill1 h3, .skill2 h3 , .skill3 h3{
+    padding:10px 0px;
+    color:white;
+  }
+
+  .skill_Icon{
+    color:white;
+    font-size: 45px;
+  }
+  
+
 }
 @media screen and (max-width: 900px) and (min-width: 520px){
   
@@ -103,6 +130,36 @@
     border-radius: 250px;
     height: 420px;
   }
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .skills p{
+    color:white;
+  }
+  .skill1 , .skill2 , .skill3{
+    width: 90%;
+    padding:30px 100px 30px 60px;
+    background-color:rgb(61, 51, 155);
+    margin: 10px 1vw;
+    border-radius: 5px;
+  }
+
+  .skill1 h3, .skill2 h3 , .skill3 h3{
+    padding:10px 0px;
+    color:white;
+  }
+
+  .skill_Icon{
+    color:white;
+    font-size: 45px;
+  }
+  
+
 
 }
 @media screen and (max-width: 520px){
@@ -160,5 +217,34 @@
     height: 300px;
   }
 
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .skills p{
+    font-size: 15px;
+    color:white;
+  }
+  .skill1 , .skill2 , .skill3{
+    width: 90%;
+    padding:30px 40px 30px 30px;
+    background-color:rgb(61, 51, 155);
+    margin: 7px 1vw;
+    border-radius: 5px;
+  }
+
+  .skill1 h3, .skill2 h3 , .skill3 h3{
+    padding:10px 0px;
+    color:white;
+  }
+
+  .skill_Icon{
+    color:white;
+    font-size: 35px;
+  }
+  
 
 }
