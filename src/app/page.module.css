@@ -345,11 +345,11 @@
   }
   
   .getInTouch{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 19px;
+    font-weight: 500;
   }
   .contacts{
     display: grid;

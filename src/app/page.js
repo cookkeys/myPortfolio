@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import img1 from "./images/myImage.jpg";
 import { FaAndroid, FaBriefcase, FaCog, FaGem, FaInstagram, FaNode, FaNodeJs, FaReact } from "react-icons/fa";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
         <p>xyz</p>
       </div>
     </div>
+    <Footer/>
     </div>
   );
 }
