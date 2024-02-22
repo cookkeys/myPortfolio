@@ -1,6 +1,7 @@
 @media screen and (min-width: 900px){
   .outer_div{
     display:flex;
+    padding-top: 4rem;
   }
   .inner_div_1{
     display:flex;
@@ -74,6 +75,55 @@
     color:white;
     font-size: 45px;
   }
+
+  .getInTouch{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  .contacts{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+    /* margin-top:50px; */
+  }
+
+  .contacts p{
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 520;
+  }   
+  .contacts p:nth-child(2n){
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contacts div{
+      width: 100%;
+      padding:30px 20px;
+      background-color:rgb(255, 255, 255);
+      margin: 0 30px;
+    
+      border-radius: 5px;
+      box-shadow: rgb(230, 230 ,230) 0px 0px 4px 1.3px;
+    }
+
+  
   
 
 }
@@ -82,6 +132,8 @@
   .outer_div{
     display:flex;
     flex-direction: column;
+    padding-top: 3rem;
+    
   }
   .inner_div_1{
     display:flex;
@@ -112,6 +164,7 @@
     height: 400px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
     
   }
   .button1{
@@ -159,8 +212,52 @@
     font-size: 45px;
   }
   
+  .getInTouch{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  .contacts{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 40px;
+    padding: 0 8vw;
+    /* margin-top:50px; */
+  }
 
-
+  .contacts p{
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 520;
+  }   
+  .contacts p:nth-child(2n){
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contacts div{
+      width: 100%;
+      padding:30px 20px;
+      background-color:rgb(255, 255, 255);
+      margin: 0 30px;
+    
+      border-radius: 5px;
+      box-shadow: rgb(230, 230 ,230) 0px 0px 4px 1.3px;
+    }
 }
 @media screen and (max-width: 520px){
   
@@ -168,6 +265,7 @@
   .outer_div{
     display:flex;
     flex-direction: column;
+    padding-top: 2.5rem;
   }
   .inner_div_1{
     display:flex;
@@ -246,5 +344,50 @@
     font-size: 35px;
   }
   
+  .getInTouch{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  .contacts{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 15px;
+    justify-items: center;
+    margin-bottom: 40px;
+    padding: 0 5vw;
+    /* margin-top:50px; */
+  }
+
+  .contacts p{
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 520;
+  }   
+  .contacts p:nth-child(2n){
+    color:rgb(61, 51, 155);
+    padding: 2px 0;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contacts div{
+      width: 100%;
+      padding:20px 20px;
+      background-color:rgb(255, 255, 255);
+      margin: 0 30px;
+      border-radius: 5px;
+      box-shadow: rgb(230, 230 ,230) 0px 0px 4px 1.3px;
+    }
 
 }

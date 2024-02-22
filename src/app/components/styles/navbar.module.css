@@ -1,6 +1,9 @@
 @media screen and (min-width: 900px){
 
     .outer_div{
+        position:fixed;
+        width: 100%;
+        top: 0;
         height: 4rem;
         background-color: rgb(61, 51, 155);
         display: flex;
@@ -49,6 +52,9 @@
 
 @media screen and (max-width: 900px) and (min-width: 520px){
     .outer_div{
+        position:fixed;
+        width: 100%;
+        top: 0;
         height: 3rem;
         background-color: rgb(61, 51, 155);
         display: flex;
@@ -113,7 +119,9 @@
     
 }
 @media screen and (max-width: 520px){
-    .outer_div{
+    .outer_div{ position:fixed;
+        width: 100%;
+        top: 0;
         height: 2.5rem;
         background-color: rgb(61, 51, 155);
         display: flex;
