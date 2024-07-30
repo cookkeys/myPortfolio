@@ -24,9 +24,9 @@ export default function Footer() {
       </div>
       <div className={styles.footer4}>
         <h4>Profile</h4>
-        <Link href="https://www.linkedin.com/in/nitin-singh-61580221b/" target="_blank"><p>LinkedIn</p></Link>
-        <Link href="https://x.com/nitinnssingh/" target="_blank"><p>Twitter</p></Link>
-        <Link href="https://www.instagram.com/nitinnssingh/" target="_blank"><p>Instagram</p></Link>
+        <Link href="https://www.linkedin.com/in/nitin-singh-61580221b/" target="_blank"><p className={styles.linkedIn}>LinkedIn</p></Link>
+        <Link href="https://x.com/nitinnssingh/" target="_blank"><p className={styles.X}>Twitter</p></Link>
+        <Link href="https://www.instagram.com/nitinnssingh/" target="_blank"><p className={styles.insta}>Instagram</p></Link>
       </div>
       </div>
       <div className={styles.footerText}><p>Developed by Nitin Singh</p></div>
