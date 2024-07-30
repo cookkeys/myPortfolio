@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./styles/footer.module.css"
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className={styles.footer}>
       <div className={styles.footer1}>
         <h4>Nitin Singh</h4>
-        <p>Software Engineer    </p>
+        <p>Frontend Developer</p>
       </div>
       <div className={styles.footer2}>
         <h4>About</h4>
@@ -23,9 +24,9 @@ export default function Footer() {
       </div>
       <div className={styles.footer4}>
         <h4>Profile</h4>
-        <p>LinkedIn</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
+        <Link href="https://www.linkedin.com/in/nitin-singh-61580221b/" target="_blank"><p>LinkedIn</p></Link>
+        <Link href="https://x.com/nitinnssingh/" target="_blank"><p>Twitter</p></Link>
+        <Link href="https://www.instagram.com/nitinnssingh/" target="_blank"><p>Instagram</p></Link>
       </div>
       </div>
       <div className={styles.footerText}><p>Developed by Nitin Singh</p></div>

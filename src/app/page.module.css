@@ -83,6 +83,7 @@
     font-size: 28px;
     font-weight: 300;
   }
+  
   .contacts{
     display: grid;
     justify-content: center;
@@ -118,14 +119,14 @@
       padding:30px 20px;
       background-color:rgb(255, 255, 255);
       margin: 0 30px;
-    
       border-radius: 5px;
       box-shadow: rgb(230, 230 ,230) 0px 0px 4px 1.3px;
     }
 
-  
-  
-
+    .txt1:hover{
+      transition: 400ms ease-in-out;
+      color: rgb(0, 0, 0);
+    }
 }
 @media screen and (max-width: 900px) and (min-width: 520px){
   
@@ -258,10 +259,12 @@
       border-radius: 5px;
       box-shadow: rgb(230, 230 ,230) 0px 0px 4px 1.3px;
     }
+    .txt1:hover{
+      transition: 400ms ease-in-out;
+      color: rgb(0, 0, 0);
+    }
 }
 @media screen and (max-width: 520px){
-  
-  
   .outer_div{
     display:flex;
     flex-direction: column;
@@ -351,6 +354,7 @@
     font-size: 19px;
     font-weight: 500;
   }
+  
   .contacts{
     display: grid;
     justify-content: center;

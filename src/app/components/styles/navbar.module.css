@@ -1,5 +1,5 @@
 @media screen and (min-width: 900px){
-
+    
     .outer_div{
         position:fixed;
         width: 100%;
@@ -38,11 +38,26 @@
         
     }
     
-    .logo{
-        font-size: 18px;
+    .logo1 ,.logo2 ,.logo3 ,.logo4{
+        font-size: 20px;
         color: white;
     }
-    
+    .logo1:hover{
+        color:rgb(218, 134, 148); 
+        transition: 300ms ease-in-out;
+    }
+    .logo2:hover{
+        color:rgb(1, 101, 255);
+        transition: 300ms ease-in-out;
+    }
+    .logo3:hover{
+        color:rgb(7, 0, 1);
+        transition: 300ms ease-in-out;
+    }
+    .logo4:hover{
+        color:rgb(29, 155, 240);
+        transition: 300ms ease-in-out;
+    }    
     .bar{
         display: none;
         color: white;
