@@ -18,7 +18,7 @@ export default function Home() {
         <button className={styles.button1}>Get Connected</button>
       </div>
       <div className={styles.inner_div_2}>
-          <Image src={img1} className={styles.img}></Image>
+          <Image src={img1} className={styles.img} alt=""></Image>
       </div>
     </div>
 
