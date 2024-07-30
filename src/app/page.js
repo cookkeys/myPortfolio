@@ -36,7 +36,7 @@ export default function Home() {
         <FaProjectDiagram className={styles.skill_Icon}/>
       <h3>NodeJS</h3>
       <p>I specialize in building robust, scalable backend applications with Node.js. My skills include creating RESTful APIs,
-         managing databases, and leveraging Node.js's event-driven architecture for high performance and efficiency.</p>
+         managing databases, and leveraging Node.js&apos;s event-driven architecture for high performance and efficiency.</p>
       </div>
       <div  className={styles.skill3}>
       <FaCode className={styles.skill_Icon}/>
