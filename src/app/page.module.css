@@ -63,7 +63,7 @@
     padding:30px 20px;
     background-color:rgb(61, 51, 155);
     margin: 0 1vw;
-    border-radius: 5px;
+    border-radius: 55px;
   }
 
   .skill1 h3, .skill2 h3 , .skill3 h3{
@@ -188,7 +188,7 @@
   .skills{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:center; 
     align-items: center;
     margin-top: 50px;
   }

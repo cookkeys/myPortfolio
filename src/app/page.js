@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import img1 from "./images/myImage.jpg";
-import { FaCode, FaCog, FaGem, FaInstagram, FaNode, FaNodeJs, FaProjectDiagram, FaPuzzlePiece, FaReact } from "react-icons/fa";
+import { FaCode, FaNodeJs, FaProjectDiagram, } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Home() {
