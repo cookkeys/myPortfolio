@@ -14,7 +14,8 @@ export default function Home() {
         <p className={styles.name2}>Singh</p>
         </div>
         <p className={styles.info}>Computer Science Student</p> 
-        <button className={styles.button1}>Get Connected</button>
+        <Link href="https://www.linkedin.com/in/nitin-singh-61580221b/" target="_blank"><button className={styles.button1}>Get Connected</button></Link>
+        
       </div>
       <div className={styles.inner_div_2}>
           <Image src={img1} className={styles.img} alt=""></Image>
