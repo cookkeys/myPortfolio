@@ -9,6 +9,8 @@ export default function Footer() {
       <div className={styles.footer1}>
         <h4>Nitin Singh</h4>
         <p>Frontend Developer</p>
+        <p>Backend Developer</p>
+        <p>DSA</p>
       </div>
       <div className={styles.footer2}>
         <h4>About</h4>
